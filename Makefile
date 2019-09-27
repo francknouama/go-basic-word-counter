@@ -2,5 +2,5 @@
 clean:
 	rm word-count
 
-build: clean
+build:
 	go build -o word-count cmd/main.go
